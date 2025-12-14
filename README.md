@@ -7,24 +7,24 @@ This project demonstrates full-stack development, including user authentication,
 
 1. Clone the backend repository or navigate to the backend folder.
 2. Create a virtual environment:
-   i. python -m venv venv
-   ii. source venv/bin/activate  # Linux/Mac
-   iii. venv\Scripts\activate     # Windows
+   1. python -m venv venv
+   2. source venv/bin/activate  # Linux/Mac
+   3. venv\Scripts\activate     # Windows
 4. Install dependencies:
-   i. pip install -r requirements.txt
-5. Initialize database:
-   i. flask db init
-   ii. flask db migrate -m "Initial migration"
-   iii. flask db upgrade
-6. Run backend:
-   i. python run.py
+   1. pip install -r requirements.txt
+6. Initialize database:
+   1. flask db init
+   2. flask db migrate -m "Initial migration"
+   3. flask db upgrade
+7. Run backend:
+   1. python run.py
 
 ## Android Frontend Setup
 
 1. Open the project in Android Studio.
 2. Make sure your build.gradle contains required dependencies:
-   ->Retrofit
-   ->Kotlin Coroutines
-   ->Jetpack Compose
-   ->DataStore
-3. Build and run the app on an emulator or device.
+   1. Retrofit
+   2. Kotlin Coroutines
+   3. Jetpack Compose
+   4. DataStore
+4. Build and run the app on an emulator or device.

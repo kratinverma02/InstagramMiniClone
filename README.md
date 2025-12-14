@@ -10,13 +10,13 @@ This project demonstrates full-stack development, including user authentication,
    i. python -m venv venv
    ii. source venv/bin/activate  # Linux/Mac
    iii. venv\Scripts\activate     # Windows
-3. Install dependencies:
+4. Install dependencies:
    i. pip install -r requirements.txt
-4. Initialize database:
+5. Initialize database:
    i. flask db init
    ii. flask db migrate -m "Initial migration"
    iii. flask db upgrade
-5. Run backend:
+6. Run backend:
    i. python run.py
 
 ## Android Frontend Setup
